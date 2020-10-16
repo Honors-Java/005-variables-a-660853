@@ -1,3 +1,8 @@
+int x = 150;
+int y = 150;
+int r = 50;
+
+
 void setup() {
 	size(500, 500);
 }
@@ -19,6 +24,12 @@ void draw() {
   stroke(0);
   fill(175);
 
+  fill(200);
+  ellipse(x,y,r,r);
+  ellipse(x+150,y,r,r);
+  ellipse(x,y+150,r,r);
+  ellipse(x+150,y+150,r,r);
+  
 
   
  
